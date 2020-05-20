@@ -1,0 +1,31 @@
+body {
+  background-color: #74d4c0;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dashed;
+  border-color: #ffe9c5;
+  border-width: 2px;
+  width: 100%;
+}
+
+h1 {
+    color: #eef5b2;
+}
+h3 {
+
+  Color: #eef5b2;
+}
+img{
+  margin: 30px;
+  border-radius: 50%;
+  box-shadow: 0 0 9px 4px #ffffdd;
+  animation: glow 1.5s linear infinite alternate;
+}
+
+@keyframes glow{
+  to {
+    box-shadow: 0 0 30px 20px #ffffdd;
+  }
+}
